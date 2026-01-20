@@ -79,3 +79,4 @@ This repository documents a comparative study between **Wide-Column** and **Colu
 | **Read pattern** | Key-based reads | Key-based reads | Key-based reads | Aggregation-based reads | Aggregation-based reads |
 | **Typical use cases** | Events / Metrics | Events / Metrics | Global SaaS | Analytics | BI / Data Warehouse |
 
+> Cassandra Query Language (CQL) uses a SQL-like syntax, but it is not a full SQL implementation. It enforces a query-driven data modeling approach and intentionally limits joins, aggregations, and ad-hoc queries to guarantee predictable performance at scale.
